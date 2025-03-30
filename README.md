@@ -9,9 +9,11 @@ TonePolish is an NLP-powered web application that helps users rewrite any senten
 
 ## 🎨 Screenshots
 
-| Emotion Detection | Tone Rewriting |
-|-------------------|----------------|
-| ![Emotion Detection](Demo/TonePolish-Demo-1.png) | ![Tone Rewriting](Demo/TonePolish-Demo-2.png) |
+## 🎨 Screenshots
+
+### ✍️ Tone Rewriting
+![Emotion Detection](demo/screenshot1.png)
+![Tone Rewriting](demo/screenshot2.png)
 
 ---
 
@@ -52,23 +54,6 @@ It’s especially helpful for:
 | Tone Rewriting     | [Nous Hermes 2 - Mistral 7B DPO](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO) via HuggingFace Transformers |
 | Deployment Ready   | Localhost / Hugging Face Spaces (optional) |
 | Token Management   | `.env` with Hugging Face token support (via `python-dotenv`) |
-
----
-
-## 📦 Folder Structure
-
-TonePolish/
-├── app.py                    # Main Streamlit UI
-├── tone_rewriter.py          # Hermes-based rewriting module
-├── emotion_detector.py       # Sentiment analysis component
-├── requirements.txt          # Python dependencies
-├── .env                      # HuggingFace token (excluded via .gitignore)
-├── demo/                     # Demo images used in README
-│   ├── screenshot1.png
-│   └── screenshot2.png
-├── README.md                 # Full project documentation
-├── venv/                     # Local virtual environment (excluded from version control)
-└── __pycache__/              # Python bytecode cache (excluded from version control)
 
 ---
 
@@ -131,12 +116,11 @@ Try these in the app with different tone settings:
 
 ## 🧰 Dependencies
 
-```text
-transformers
-torch
-streamlit
-python-dotenv
-```
+- `transformers` – HuggingFace models and pipelines  
+- `torch` – Backend engine for large language models  
+- `streamlit` – UI for real-time interaction  
+- `python-dotenv` – Securely load HuggingFace token from `.env`
+
 
 Install them with:
 
