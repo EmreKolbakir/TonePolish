@@ -9,8 +9,6 @@ TonePolish is an NLP-powered web application that helps users rewrite any senten
 
 ## 🎨 Screenshots
 
-## 🎨 Screenshots
-
 ### ✍️ Tone Rewriting
 ![Emotion Detection](Demo/TonePolish-Demo-1.png)
 ![Tone Rewriting](Demo/TonePolish-Demo-2.png)
